@@ -1,5 +1,5 @@
 const { buildSync } = require("esbuild");
-const pkg = require("psychojs/package.json");
+const pkg = require("@douglasneuroinformatics/psychojs/package.json");
 
 const versionMaybe = process.env.npm_config_outver;
 const dirMaybe = process.env.npm_config_outdir;
